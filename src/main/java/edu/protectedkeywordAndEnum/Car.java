@@ -1,11 +1,9 @@
 package edu.protectedkeywordAndEnum;
 
 public class Car {
-    private String brand;
-    private String model;
-    private FuelType fueltype;
-
-    public Car(){}
+    private final String brand;
+    private final String model;
+    private final FuelType fueltype;
 
     public Car(String brand, String model, FuelType fueltype) {
         this.brand = brand;

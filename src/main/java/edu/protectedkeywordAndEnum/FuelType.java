@@ -1,14 +1,14 @@
 package edu.protectedkeywordAndEnum;
 
 public enum FuelType {
-    ELECTRICITY("Needed 0 liters of petrol."),
-    DEASEL("String"),
-    GASS("String"),
-    PETROL("String");
+    ELECTRICITY("Need"),
+    DIESEL("String"),
+    GAS("String"),
+    HYBRID("aaa"),
+    PETROL("bbb");
 
     private final String description;
-
-    FuelType(String description) {
+    FuelType(String description){
         this.description = description;
     }
 
